@@ -1,0 +1,9 @@
+<div class="container mt-5">
+    <h2>Login</h2>
+    <form (ngSubmit)="login()">
+      <input type="text" class="form-control mb-2" placeholder="Username" [(ngModel)]="credentials.username" name="username">
+      <input type="password" class="form-control mb-2" placeholder="Password" [(ngModel)]="credentials.password" name="password">
+      <button class="btn btn-primary">Login</button>
+      <div *ngIf="errorMessage" class="text-danger mt-2">{{ errorMessage }}</div>
+    </form>
+  </div>

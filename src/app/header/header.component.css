@@ -1,0 +1,46 @@
+.navbar-nav .nav-link.active {
+    color: #ffc107 !important; /* Golden Yellow when active */
+    font-weight: bold;
+    padding-bottom: 10px;
+
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+  .fancy-brand {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cart-icon {
+    font-size: 1.8rem;
+    animation: pulse 2s infinite;
+    color: #ffc107;
+    filter: drop-shadow(0 0 4px #ffc107);
+  }
+  
+  .product-text {
+    color: #ffffff;
+    letter-spacing: 1px;
+  }
+  
+  .cart-text {
+    color: #00d1b2;
+    font-weight: bold;
+    margin-left: 3px;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  .active {
+    font-weight: bold;
+    border-bottom: 2px solid #ffc107;
+  }
+  

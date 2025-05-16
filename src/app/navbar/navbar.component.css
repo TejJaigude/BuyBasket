@@ -1,0 +1,9 @@
+.navbar-nav .nav-link.active {
+    color: #00e5ff !important; /* Cyan when active */
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #b2ebf2 !important; /* Light cyan on hover */
+  }
+  
