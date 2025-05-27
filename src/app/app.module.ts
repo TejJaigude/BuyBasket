@@ -12,10 +12,7 @@ import { AddproductComponent} from './addproduct/addproduct.component'
 import { FormsModule, NgForm } from '@angular/forms';
 import { EditproductComponent } from './editproduct/editproduct.component';
 import { HeroComponent } from './home/hero/hero.component';
-import { FeaturedProductsComponent } from './home/featured-products/featured-products.component';
-import { CategoriesComponent } from './home/categories/categories.component';
 import { WhyChooseUsComponent } from './home/why-choose-us/why-choose-us.component';
-import { TestimonialsComponent } from './home/testimonials/testimonials.component';
 import { CartComponent } from './cart/cart.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule } from '@angular/router';
@@ -34,10 +31,7 @@ import { AuthInterceptor } from './auth.interceptor';
     AddproductComponent,
     EditproductComponent,
     HeroComponent,
-    FeaturedProductsComponent,
-    CategoriesComponent,
     WhyChooseUsComponent,
-    TestimonialsComponent,
     CartComponent,
     NavbarComponent,
     LoginComponent,
